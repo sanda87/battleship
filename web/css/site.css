@@ -1,0 +1,16 @@
+html,
+body {
+    height: 100%;
+}
+
+.play-field .cell {
+    display: block;
+    height: 100px;
+    border: #ebecec 1px solid;
+    background-color: #f8f9f9;
+}
+
+.play-field .cell.active {
+    background-color: #57c454;
+    border: #57c454 1px solid;
+}
